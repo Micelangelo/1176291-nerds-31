@@ -1,16 +1,19 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html class="page" lang="ru">
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Нёрдс</title>
+    <link href="1176291-nerds-31/css/normalize" rel="stylesheet">
+    <link href="C:\Users\User\Desktop\1176291-nerds-31\css\style.css" rel="stylesheet">
+    <link href="https://fonts.google.com/specimen/Roboto+Mono?query=Roboto#standard-styles" rel="stylesheet">
   </head>
-  <body>
-  	<header>
-  		<a href="#">
+  <body class="page-body">
+  	<header class="main-header">
+  		<a class="logo">
   			<img src="https://via.placeholder.com/150x100" alt="Логотип кампании">	
   		</a>
-  		<nav>
-  			<ul>
+  		<nav class="main-navigation">
+  			<ul class="site-navigation">
   				<li><a href="#">Студия</a></li>
   				<li><a href="#">Клиенты</a></li>
   				<li><a href="#">Магазин</a></li>
@@ -18,23 +21,28 @@
   				<li><a href="#">Корзина</a></li>
   			</ul>
   		</nav>
-  		<ul>
-  			<li>
-  				<h1>Долго, дорого,<br>скрупулезно</h1>
-  				<p>
+  		</header>
+
+  	<main class="container">
+  		<h1 class="visually-hidden">Компания Нёрдс</h1>
+  		<h2 class="visually-hidden">Наши преимущества</h2>
+  		<ul class="main-list">
+  			<li class="slider_list">
+  				<h2 class="title">Долго, дорого,<br>скрупулезно</h1>
+  				<p class="tagline">
   				Математически выверинный дизайн<br>
   				для вашего сайта или мобильного приложения
   				</p>
-  				<a href="#">Узнать больше</a>
+  				<a class="link" href="#">Узнать больше</a>
   				<img src="https://via.placeholder.com/760x431" alt="Картинка с телефоними">
   			</li>
-  			<li>
-  				<h1>Любим математику<br>как никто другой</h1>
+  			<li class="slider_list">
+  				<h2>Любим математику<br>как никто другой</h1>
   				<a href="#">Узнать больше</a>
   				<img src="https://via.placeholder.com/760x431" alt="Картинка с мониторами">
   			</li>
-  			<li>
-  				<h1>Только ночь,<br>только хардкор</h1>
+  			<li class="slider_list">
+  				<h2>Только ночь,<br>только хардкор</h1>
   				<p>
   				Работать днем, как все?Мы против этого.<br>
   				Ближе к полуночи работа только начинается
@@ -42,10 +50,10 @@
   				<a href="#">Узнать больше</a>
   				<img src="https://via.placeholder.com/760x431" alt="Картинка с телефоном и планшетом">
   			</li>
-  	</header>
-  	<section>
-  		<ul>
-  			<li>
+  		</ul>
+  		<ul class="main-list">
+  			<h2 class="visually-hidden">Чем мы занимаемся</h2>
+  			<li class="main-item">
   				<img src="https://via.placeholder.com/300x146" alt="Картинка c ноутбуком">
   				<h2>ВЕБ-САЙТЫ</h2>
   				<p>
@@ -54,7 +62,7 @@
   				</p>
   				<button>ЗАКАЗАТЬ</button>
   			</li>
-  			<li>
+  			<li class="main-item">
   				<img src="https://via.placeholder.com/300x146" alt="Картинка c телефонами">
   				<h2>ПРИЛОЖЕНИЯ</h2>
   				<p>
@@ -63,7 +71,7 @@
   				</p>
   				<button>ЗАКАЗАТЬ</button>
   			</li>
-  			<li>
+  			<li class="main-item">
   				<img src="https://via.placeholder.com/300x146" alt="Картинка c презентацией">
   				<h2>ПРЕЗЕНТАЦИИ</h2>
   				<p>
@@ -72,15 +80,15 @@
   				</p>
   				<button>ЗАКАЗАТЬ</button>
   			</li>
+  	</main>	
   		
-  	</section>
-
-  	<section>
-  		<h3>
+  	<section class="about-section">
+  		<h2 class="visually-hidden">О нас</h2>
+  		<h3 class="about-title">
   			Мы-маленькая, но гордая<br>
   			дизайн-студия из Краснодара.
   		</h3>
-  		<p>
+  		<p class="about-tagline">
   			Испопедуем принципы минимализма и чистоты.Ставим математический расчет<br>
   			превыше креатива.Работаем не покладая рук,как роботы.
   		</p>
@@ -106,15 +114,14 @@
   			<li>
   				50<sup>%</sup>
   				<br>Минимальная<br>предоплата
-  			</li>
-
-
-  		
+  			</li>	
   	</section>
-  	<section>
+
+  	<section class="partners-section">
+  		<h2 class="visually-hidden">Нашы партнеры</h2>
   		<ul>
   			<li>
-  				<img src="https://via.placeholder.com/199x57" alt="Логотип компании html Academy">
+  				<img src="https://htmlacademy.ru/intensive/htmlcss" alt="Логотип компании html Academy">
   			</li>
   			<li>
   				<img src="https://via.placeholder.com/199x57" alt="логотип компании borodinski">
@@ -128,7 +135,8 @@
   		</ul>
   	</section>
   	
-  	<section>
+  	<section class="contacts-section">
+  		<h1 class="visually-hidden">Наши контакты</h2>
   		<img src="https://via.placeholder.com/1440x416" alt="Карта с адресом">
   		<h5>
   			NЁRDS DESIGN STUDIO
@@ -139,6 +147,7 @@
   		<a href="tel:+78005558628">+7 800 555-86-28</a>
   		<button>Напишите нам</button>
   	</section>
+
   	<footer>
   		<ul>
   			<li>
@@ -161,8 +170,5 @@
   			Скидка 10% для друзей из социальных сетей.
   		</p>
   	</footer>
-
-
-
-  </body>
+  </body class="page-body">
 </html>
