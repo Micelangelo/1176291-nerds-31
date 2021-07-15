@@ -1,12 +1,17 @@
+:root {
+	--basic
+}
 .page-body {
 	font-family: "Roboto", "Arial", sans-serif;
 	min-width: 960px;
 	margin: 0;
 	padding: 0;
-	background-color: #888888;
+	background-color: #ffffff;
 	font-size: 16px;
 	line-height: 24px;
-	font-weight: 700;
+	font-weight: 400;
+	display: grid;
+	
 
 }
 
@@ -21,4 +26,73 @@
 	line-height: 24px;
 	font-weight: 400;
 	color: #283136;
+}
+.site-navigation {
+	display: grid;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 30px;
+	color: #000000;
+	font-style: normal;
+
+}
+.title {
+	font-weight: 500;
+	font-style: normal;
+	font-size: 55;
+	line-height: 55px;
+}
+.tagline {
+	font-weight: 400;
+	font-style: normal;
+	font-size: 16px;
+	line-height: 24px;
+	color: #283136;
+}
+.ilnk {
+	font-weight: 500;
+	font-style: normal;
+	font-size: 16px;
+	line-height: 18px;
+}
+.main-title {
+	font-weight: 700;
+	font-style: normal;
+	font-size: 24px;
+	line-height: 30px;
+}
+.about-title {
+	font-weight: 500;
+	font-style: normal;
+	font-size: 45px;
+	line-height: 45px;
+	color: #000000;
+}
+.about-tagline {
+	color: #283136;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 16px;
+	line-height: 24px;
+}
+.main-tagline {
+	font-weight: 400;
+	font-style: normal;
+	font-size: 16px;
+	line-height: 24px;
+}
+.address {
+	font-weight: 400;
+	font-style: normal;
+	font-size: 16px;
+	line-height: 18px;
+	color: #000000;
+}
+.footer-title {
+	font-weight: 700;
+	font-style: normal;
+	font-size: 36px;
+	line-height: 36px;
+	color: #000000;
+
 }
